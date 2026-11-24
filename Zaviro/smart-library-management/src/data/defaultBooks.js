@@ -1,0 +1,58 @@
+const defaultBooks = [
+  {
+    id: "BOOK-001",
+    bookId: "BOOK-001",
+    title: "The Alchemist",
+    name: "The Alchemist",
+    author: "Paulo Coelho",
+    category: "Fiction",
+    isbn: "9780062315007",
+    quantity: 3,
+    availableQuantity: 3,
+    issuedQuantity: 0,
+    status: "Available",
+    available: true,
+    description:
+      "A popular novel about dreams, goals, and following your personal journey.",
+    image: "",
+    createdAt: new Date().toISOString(),
+  },
+  {
+    id: "BOOK-002",
+    bookId: "BOOK-002",
+    title: "Atomic Habits",
+    name: "Atomic Habits",
+    author: "James Clear",
+    category: "Self Help",
+    isbn: "9780735211292",
+    quantity: 2,
+    availableQuantity: 2,
+    issuedQuantity: 0,
+    status: "Available",
+    available: true,
+    description:
+      "A practical guide to building good habits and breaking bad ones.",
+    image: "",
+    createdAt: new Date().toISOString(),
+  },
+  {
+    id: "BOOK-003",
+    bookId: "BOOK-003",
+    title: "Clean Code",
+    name: "Clean Code",
+    author: "Robert C. Martin",
+    category: "Programming",
+    isbn: "9780132350884",
+    quantity: 2,
+    availableQuantity: 2,
+    issuedQuantity: 0,
+    status: "Available",
+    available: true,
+    description:
+      "A guide to writing clean, readable, maintainable software code.",
+    image: "",
+    createdAt: new Date().toISOString(),
+  },
+];
+
+export default defaultBooks;
